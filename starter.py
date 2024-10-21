@@ -6,4 +6,4 @@ os.environ["LD_LIBRARY_PATH"] = "/act/opt/intel/composer_xe_2013.3.163/mkl/lib/i
 os.environ["LD_LIBRARY_PATH"] = intel64_path + ":" + os.environ.get("LD_LIBRARY_PATH","")
 os.system("make")
 # os.system("./main lapack 4096")
-os.system("srun main lapack 4096")
+os.system("srun main lapack 5000")
